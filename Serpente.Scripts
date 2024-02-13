@@ -23,7 +23,7 @@ Logo.ImageTransparency = 0
 Logo.ScaleType = Enum.ScaleType.Crop
 
 Circle.CornerRadius = UDim.new(110235, 0)
-Circle.Name = "Square"
+Circle.Name = "Circle"
 Circle.Parent = Logo
 
 -- Scripts:
@@ -136,7 +136,7 @@ Frame.InputChanged:Connect(function(input)
     end
 end) 
 
-local Window = Library.CreateLib("SERPENTE X 1.3| 🇧🇷 | Brookhaven🏠 | Err0r 129", "Serpent")
+local Window = Library.CreateLib("SERPENTE X 1.3(Update)| 🇧🇷 | Brookhaven🏡| 🛠️?Defense.Dev¿🛠️", "Serpent")
 
 local Tab = Window:NewTab("IMPORTANTE🚨") 
 local Section = Tab:NewSection("News")
@@ -204,8 +204,17 @@ end)
 Section:NewButton("Nome Narigudo🏷️", "Executar Script", function()
  game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Narigudo")
 end)
-Section:NewButton("Nome Cu🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Cu")
+Section:NewButton("Nome hehe Boy🏷️", "Executar Script", function()
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","hehe boy")
+end)
+Section:NewButton("Nome Formigão Dcria🏷️", "Executar Script", function()
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Formigão Dcria")
+end)
+Section:NewButton("Nome !SCRIPTER!🏷️", "Executar Script", function()
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","!SCRIPTER!")
+end)
+Section:NewButton("Nome Ze Ruela🏷️", "Executar Script", function()
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Ze Ruela")
 end)
 local Tab = Window:NewTab("Main🧬")
 local Section = Tab:NewSection("Main Config")
@@ -219,7 +228,7 @@ Section:NewToggle("Hitbox🍁", "info" ,function(state)
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
 end)
 Section:NewToggle("ESP🍁", "info" ,function(state)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-3d-Box-ESP-5346"))()
 end)
 local Tab = Window:NewTab("Trolling🤷")
 local Section = Tab:NewSection("All Kills") 
@@ -228,141 +237,13 @@ Section:NewButton("Fling all🔪(pegue sofa)", "Executar Script", function()
 end)
 local Section = Tab:NewSection("Flings")
 Section:NewButton("Kill Troll(Pegue sofá)🌟", "Executar Script", function()
- -- I DONT OWN THIS SCRIPT
-
-local lp = game:FindService("Players").LocalPlayer
-
-local function gplr(String)
-	local Found = {}
-	local strl = String:lower()
-	if strl == "all" then
-		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
-			table.insert(Found,v)
-		end
-	elseif strl == "others" then
-		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
-			if v.Name ~= lp.Name then
-				table.insert(Found,v)
-			end
-		end 
-	elseif strl == "me" then
-		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
-			if v.Name == lp.Name then
-				table.insert(Found,v)
-			end
-		end 
-	else
-		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
-			if v.Name:lower():sub(1, #String) == String:lower() then
-				table.insert(Found,v)
-			end
-		end 
-	end
-	return Found 
-end
-
-local function notif(str,dur)
-	game:FindService("StarterGui"):SetCore("SendNotification", {
-		Title = "Serpente X|Kill",
-		Text = str,
-		Icon = "rbxassetid://10044538000",
-		Duration = dur or 3
-	})
-end
-
---// sds
-
-local h = Instance.new("ScreenGui")
-local Main = Instance.new("ImageLabel")
-local Top = Instance.new("Frame")
-local Title = Instance.new("TextLabel")
-local TextBox = Instance.new("TextBox")
-local TextButton = Instance.new("TextButton")
-
-h.Name = "h"
-h.Parent = game:GetService("CoreGui")
-h.ResetOnSpawn = false
-
-Main.Name = "Main"
-Main.Parent = h
-Main.Active = true
-Main.Draggable = true
-Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.174545452, 0, 0.459574461, 0)
-Main.Size = UDim2.new(0, 454, 0, 218)
-Main.Image = "rbxassetid://"
-
-Top.Name = "Top"
-Top.Parent = Main
-Top.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-Top.BorderSizePixel = 0
-Top.Size = UDim2.new(0, 454, 0, 44)
-
-Title.Name = "Title"
-Title.Parent = Top
-Title.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0, 0, 0.295454562, 0)
-Title.Size = UDim2.new(0, 454, 0, 30)
-Title.Font = Enum.Font.SourceSans
-Title.Text = "KILL TROLL | Serpent X"
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title.TextScaled = true
-Title.TextSize = 14.000
-Title.TextWrapped = true
-
-TextBox.Parent = Main
-TextBox.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextBox.BorderSizePixel = 0
-TextBox.Position = UDim2.new(0.0704845786, 0, 0.270642221, 0)
-TextBox.Size = UDim2.new(0, 388, 0, 62)
-TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderText = "Name Player"
-TextBox.Text = ""
-TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.TextScaled = true
-TextBox.TextSize = 14.000
-TextBox.TextWrapped = true
-
-TextButton.Parent = Main
-TextButton.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.10352423, 0, 0.596330225, 0)
-TextButton.Size = UDim2.new(0, 359, 0, 50)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "KILL☑️'"
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
-
-TextButton.MouseButton1Click:Connect(function()
-	local Target = gplr(TextBox.Text)
-	if Target[1] then
-		Target = Target[1]
-		
-		local Thrust = Instance.new('BodyThrust', lp.Character.HumanoidRootPart)
-		Thrust.Force = Vector3.new(9999,9999,9999)
-		Thrust.Name = "YeetForce"
-		repeat
-			lp.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
-			Thrust.Location = Target.Character.HumanoidRootPart.Position
-			game:FindService("RunService").Heartbeat:wait()
-		until not Target.Character:FindFirstChild("Head")
-	else
-		notif("Invalid player")
-	end
-end)
-
---//fsddfsdf
-notif("Loaded successfully!", 5)
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/KillTrollByDefense.dev/main/Troll.lua"))()
 end)
 Section:NewButton("Kill SystemBroken🌟", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
 end)
 
-local Tab = Window:NewTab("Others💬")
+local Tab = Window:NewTab("others💥")
 local Section = Tab:NewSection("GUIS|HUBS")
 
 Section:NewButton("OrangeX🍊", "Executar Script", function()
@@ -397,6 +278,9 @@ Section:NewButton("GhostHub🖥️", "Executar Script", function()
 end)
 Section:NewButton("BACKDOOR.EXE🖥️", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+Section:NewButton("Arceus X🖥️", "Executar Script", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
 end)
 local Section = Tab:NewSection("Scripts")
 Section:NewButton("Nameless ADMIN🍪", "Executar Script", function()
