@@ -169,6 +169,9 @@ end)
 Section:NewButton("Barra de admin🖥️", "Executar Script", function()
  loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))()
 end)
+Section:NewButton("Drop tools🖥️", "Executar Script", function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/Ctqjmtkv", true))()
+end)
 local Section = Tab:NewSection("--Nomes em Zalgo--")
 Section:NewButton("Nome ERRØR🏷️", "Executar Script", function()
  game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Ȩ̴̹͐̀̃̈́̊͐̒Ŗ̶̥̯̭͓͎̣͓̫͔͚̰̫̜̌̊̽̀Ŗ̴̨̰̦̞̳̗̀̋̆͛͂͐̆̈́̓̉̈́̈́͒̈O̸͚̥̮͖͒̒̄̍̈́̑̊̎̕͝Ŕ̵̛͈͔͕̠̄̾̀͊̈́͛̎́̾̐̕͘")
@@ -224,21 +227,6 @@ end)
 Section:NewButton("Nome HYNDRA🏷️", "Executar Script", function()
  game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","HYNDRA-XY")
 end)
-Section:NewButton("Nome !Davi!🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","!Davi!")
-end)
-Section:NewButton("Nome Boriss🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Boriss")
-end)
-Section:NewButton("Nome Ratao🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Ratão")
-end)
-Section:NewButton("Nome Baiano🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Baiano")
-end)
-Section:NewButton("Nome quemleuÉGY🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","QuemLeuÉGy")
-end)
 local Tab = Window:NewTab("Main🧬")
 local Section = Tab:NewSection("Main Config")
 Section:NewTextBox("WalkSpeed","Speed", function(txt)
@@ -263,12 +251,10 @@ Section:NewButton("Kill Troll(Pegue sofá)🌟", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/KillTrollByDefense.dev/main/Troll.lua"))()
 end)
 Section:NewButton("Void(pegue a pessoa no sofá)🌟", "Executar Script", function()
- --Void
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Void'))()
 end)
 local Tab = Window:NewTab("others💥")
 local Section = Tab:NewSection("GUIS|HUBS")
-
 Section:NewButton("OrangeX🍊", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/OrangeX-Hub-V3-Rel/main/OrangeX%20V3%20Milvan.txt"))()
 end)
@@ -380,7 +366,6 @@ Section:NewButton("Korblox And Headless🎃👖", "Executar Script", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
 end)
 Section:NewButton("Look Assustador", "Executar Script", function()
---Ghostplayer Outfit
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Ghostplayer%20Outfit'))()
 end)
 local Section = Tab:NewSection("Animations")
@@ -391,72 +376,70 @@ Section:NewButton("Animation Hub(FE)💓", "Executar Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEAnimationGui/main/FEAnimationGui.lua", true))() 
 end)
 Section:NewButton("R6 POSING💓", "Executar Script", function()
---R6 Posing
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/R6%20Posing%20Obfuscator'))()
 end)
-local Tab = Window:NewTab("Dev.err0r 129🔱")
-local Section = Tab:NewSection("SCRIPTS|err0r") 
-Section:NewButton("🌐Noclip HUB🌐", "Executar Script", function()
- local Workspace = game:GetService("Workspace")
-local CoreGui = game:GetService("CoreGui")
-local Players = game:GetService("Players")
-local Noclip = Instance.new("ScreenGui")
-local BG = Instance.new("Frame")
-local Title = Instance.new("TextLabel")
-local Toggle = Instance.new("TextButton")
-local StatusPF = Instance.new("TextLabel")
-local Status = Instance.new("TextLabel")
-local Credit = Instance.new("TextLabel")
-local Plr = Players.LocalPlayer
-local Clipon = false
-
-Noclip.Name = "Noclip Hub"
-Noclip.Parent = game.CoreGui
-
-BG.Name = "BG"
-BG.Parent = Noclip
-BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
-BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
-BG.BorderSizePixel = 2
-BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
-BG.Size = UDim2.new(0, 210, 0, 127)
-BG.Active = true
-BG.Draggable = true
-
-Title.Name = "Title"
-Title.Parent = BG
-Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
-Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
-Title.BorderSizePixel = 2
-Title.Size = UDim2.new(0, 210, 0, 33)
-Title.Font = Enum.Font.Highway
-Title.Text = "Noclip hub"
-Title.TextColor3 = Color3.new(1, 1, 1)
-Title.FontSize = Enum.FontSize.Size32
-Title.TextSize = 30
-Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
-Title.TextStrokeTransparency = 0
-
-Toggle.Parent = BG
-Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
-Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
-Toggle.BorderSizePixel = 2
-Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
-Toggle.Size = UDim2.new(0, 146, 0, 36)
-Toggle.Font = Enum.Font.Highway
-Toggle.FontSize = Enum.FontSize.Size28
-Toggle.Text = "Toggle"
-Toggle.TextColor3 = Color3.new(1, 1, 1)
-Toggle.TextSize = 25
-Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
-Toggle.TextStrokeTransparency = 0
-
-StatusPF.Name = "StatusPF"
-StatusPF.Parent = BG
-StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
-StatusPF.BackgroundTransparency = 1
-StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
-StatusPF.Size = UDim2.new(0, 56, 0, 20)
-StatusPF.Font = Enum.Font.Highway
-StatusPF.FontSize = Enum.FontSize.Size24
-StatusPF.
+local Tab = Window:NewTab("itens💐") 
+local Section = Tab:NewSection("itens Visuais")
+Section:NewButton("tool giver✨", "Executar Script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Tool%20Giver%20v2'))()
+end)
+Section:NewButton("itens-Im Patrick✨", "Executar Script", function()
+ loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
+end)
+Section:NewButton("err0r129 speed✨", "Executar Script", function()
+ --Made By Raspyredstoner
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "err0r129 Speed"
+tool.Activated:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 800
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+Section:NewButton("err0r129 Jump✨", "Executar Script", function()
+ --Made By Raspyredstoner
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "err0r129 Jump"
+tool.Activated:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 500
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+Section:NewButton("ClickTP🛠️", "Executar Script", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/KptHadesBlair/main/Bao.lua"))()
+end)
+Section:NewButton("F3X🛠️", "Executar Script", function()
+ loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+end)
+Section:NewButton("Btools🛠️", "Executar Script", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/PqpHadesBlair/main/Bao.lua"))()
+end)
+local Tab = Window:NewTab("Misc☎️") 
+local Section = Tab:NewSection("Scripts")
+Section:NewButton("Shiftlock🔒", "Executar Script", function()
+ loadstring(game:HttpGet("https://scriptblox.com/raw/Baseplate-Universal-Script-Permanent-Shift-Lock-6924"))()
+end)
+Section:NewButton("infinite Yield👾", "Executar Script", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+Section:NewButton("Infinite Jump🌪️", "Executar Script", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/SerpenteXByHadesBlair/main/Bao.lua"))()
+end)
+Section:NewButton("ernergizer hub⚡", "Executar Script", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/ErnegizerHubBySla/main/KKK.lua"))()
+end)
+Section:NewButton("Telescopio⚡", "Executar Script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Telescope'))()
+end)
+Section:NewButton("Portal⚡(Agora funciona)", "Executar Script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Portal'))()
+end)
+Section:NewButton("RTX hub⚡", "Executar Script", function()
+ loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-pshade-V5-4-9228"))()
+end)
+local Section = Tab:NewSection("BYPASSING")
+Section:NewButton("systembroken", "Executar Script", function()
+ loadstring(game:HttpGet
