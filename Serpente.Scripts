@@ -18,7 +18,7 @@ Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Logo.BorderSizePixel = 0
 Logo.Position = UDim2.new(0.5, 0, 0.5, 0)
 Logo.Size = UDim2.new(0, 400, 0, 400)
-Logo.Image = "rbxassetid://2005276185"
+Logo.Image = "rbxassetid://16900913788"
 Logo.ImageTransparency = 0
 Logo.ScaleType = Enum.ScaleType.Crop
 
@@ -83,7 +83,7 @@ TextButton.BackgroundTransparency = 1.000
 TextButton.Position = UDim2.new(0.022162716, 0, 0.85, -20)
 TextButton.Size = UDim2.new(1, -10, 1, 0) 
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Abrir/Fechar"
+TextButton.Text = "SERPENTE X"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 20.000
 TextButton.TextWrapped = true
@@ -135,7 +135,7 @@ Frame.InputChanged:Connect(function(input)
     end
 end) 
 
-local Window = Library.CreateLib("SERPENTE X 1.5| 🇧🇷 | Brookhaven🏡| 🛠️Defense.Dev🛠️", "Serpent")
+local Window = Library.CreateLib("SERPENTE X 1.6| 🇧🇷 | Brookhaven🏡| Hades Blair", "Serpent")
 
 local Tab = Window:NewTab("IMPORTANTE🚨") 
 local Section = Tab:NewSection("News")
@@ -150,10 +150,6 @@ end)
 local Section = Tab:NewSection("Scripts Brook")
 Section:NewButton("HautendPatroll(Unwell)🖥️", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/H4untedPatron/H4untedPatron-LoaderHub/main/HaPatronHubLoader.txt"))()
-end)
-Section:NewButton("Controlar Players(Visual)🖥️", "Executar Script", function()
- --Control Player
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Control%20Player'))()
 end)
 Section:NewButton("Antates Hub (Boris)🖥️", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/BorisLua/AntaresHubSuaMaeNaMinhaCama/0.5.1/AntaresHubWorking.lua"))()
@@ -170,21 +166,24 @@ end)
 Section:NewButton("Unfair hub🖥️", "Executar Script", function()
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
+Section:NewButton("Barra de admin🖥️", "Executar Script", function()
+ loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))()
+end)
 local Section = Tab:NewSection("--Nomes em Zalgo--")
-Section:NewButton("Nome ERRØR 129🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Ȩ̰͈̩͎͎̭͉̤̩͔R̰̤̪͓̳̲̘̘̰͈͜R̢̘͇͕̯̦͈̗O̡̘͉͍̮̩̗̪̗̫̞R̡̯͍͔̬̦̦̫̖̲̮ͅ")
+Section:NewButton("Nome ERRØR🏷️", "Executar Script", function()
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Ȩ̴̹͐̀̃̈́̊͐̒Ŗ̶̥̯̭͓͎̣͓̫͔͚̰̫̜̌̊̽̀Ŗ̴̨̰̦̞̳̗̀̋̆͛͂͐̆̈́̓̉̈́̈́͒̈O̸͚̥̮͖͒̒̄̍̈́̑̊̎̕͝Ŕ̵̛͈͔͕̠̄̾̀͊̈́͛̎́̾̐̕͘")
 end)
 Section:NewButton("Nome Dark🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Dark")
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","D̷͙̝͍̝̳͐̈̈́͌̎̚a̸̬͖̪̯̫͙̝͌̂̔̉́r̶͚̱̮͇͂̀͊͋̇̀͒̓̚k̴̙̲̖͉̯͐͂͋̀")
 end)
 Section:NewButton("Nome Zer0🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Z̧͈͓̗͙̜͇E̢̗͈͇̤̗̲̟͔̲͔̱R̨̟̭͉̞̩̰̞̯̬̥0̨͙̜̩̪̱̩")
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Z̵̧̡̛͇̖̺͇̙̺̮̪̺͓̻̮̊̇̂̔̑͒́̾̓̏̚͜e̶̛͇͈̹̭̺͙̗͕̰̘̤͂͐͊͛̋̇͐͗͌̄̈̇̂̾͋͜͠r̸̠̙̈́͑̊́͛̄̂̚͜0̵̢̨̺̙͔̺̠͕̳̪̻͍̮̞̖̺͇̌͋͆̈́̊͛̓́͆͌̈́̚̚͝")
 end)
 Section:NewButton("Nome OWER🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","O̠̣̙͈͓̖̣͜W̡͔̟͉͈̥̞E͎̬̭̩͇͎̘͕̦̮̦͚͢Ŗ̞̩̦̬")
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","O̵̢̥̞̣̘͚̗͔͇̙͖̯̝̣̬̩͊̀̐̀̉̄͑͗͗͘̕͝͝w̷͚̬̐̀̊̄̊͒̈̈́̅͝͝ͅͅe̵̦̼̬̻͖͖̣͓̪͒̑͗̀͋͐͆̚̚ȑ̸̨̢̰̜͔͓͍̜͍͚̹̪̩̆̂̓̉̅̆̂͑́̈͆́̕͜ͅ")
 end)
 Section:NewButton("Nome ADMIN🏷️", "Executar Script", function()
- game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","A̤͙̦̣͓͕̘͕͉͢Ḑ̟̜̜̗̥M̨̞͕̖ͅI̧̩̤̯̱̩͙͉͔͈̙͉ͅŅ̳͉̦͖̭̮")
+ game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","Á̷̱̈́̔̔̿̉̽̈̿̐̉̎D̸̩̼̙̬̜̦̯̀̓̄̿̈́̇̊̀̚̕͠M̸̟̉̐̒̅͘Ī̴̡͚̩̞̻̲̘͖͍̰̟̫͖̎͐́͋̍̈́̔͘͠N̶̡̡̛̩̳͓̩̖̱͍̣̥͇̼̗̐̎̎")
 end)
 Section:NewButton("Nome Joko🏷️", "Executar Script", function()
  game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","J̢͙̲̝̫̳̟̞̦̪̤o̧̭̟̠̩͎̱̩k̡̳̱̜̞̖̩͔͕̰̞o̢̮̯̮͎")
@@ -306,9 +305,6 @@ end)
 Section:NewButton("Arceus X🖥️", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
 end)
-Section:NewButton("Arceus X🖥️", "Executar Script", function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
-end)
 local Section = Tab:NewSection("Scripts")
 Section:NewButton("Nameless ADMIN🍪", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
@@ -383,12 +379,20 @@ end)
 Section:NewButton("Korblox And Headless🎃👖", "Executar Script", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
 end)
+Section:NewButton("Look Assustador", "Executar Script", function()
+--Ghostplayer Outfit
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Ghostplayer%20Outfit'))()
+end)
 local Section = Tab:NewSection("Animations")
 Section:NewButton("Fe emotes all🤹", "Executar Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEmotesGui/main/FEmotesGui.lua", true))()
 end)
 Section:NewButton("Animation Hub(FE)💓", "Executar Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEAnimationGui/main/FEAnimationGui.lua", true))() 
+end)
+Section:NewButton("R6 POSING💓", "Executar Script", function()
+--R6 Posing
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/R6%20Posing%20Obfuscator'))()
 end)
 local Tab = Window:NewTab("Dev.err0r 129🔱")
 local Section = Tab:NewSection("SCRIPTS|err0r") 
@@ -455,193 +459,4 @@ StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
 StatusPF.Size = UDim2.new(0, 56, 0, 20)
 StatusPF.Font = Enum.Font.Highway
 StatusPF.FontSize = Enum.FontSize.Size24
-StatusPF.Text = "Status:"
-StatusPF.TextColor3 = Color3.new(1, 1, 1)
-StatusPF.TextSize = 20
-StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
-StatusPF.TextStrokeTransparency = 0
-StatusPF.TextWrapped = true
-
-Status.Name = "Status"
-Status.Parent = BG
-Status.BackgroundColor3 = Color3.new(1, 1, 1)
-Status.BackgroundTransparency = 1
-Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
-Status.Size = UDim2.new(0, 56, 0, 20)
-Status.Font = Enum.Font.Highway
-Status.FontSize = Enum.FontSize.Size14
-Status.Text = "off"
-Status.TextColor3 = Color3.new(0.666667, 0, 0)
-Status.TextScaled = true
-Status.TextSize = 14
-Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
-Status.TextWrapped = true
-Status.TextXAlignment = Enum.TextXAlignment.Left
-
-Credit.Name = "Credit"
-Credit.Parent = BG
-Credit.BackgroundColor3 = Color3.new(1, 1, 1)
-Credit.BackgroundTransparency = 1
-Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
-Credit.Size = UDim2.new(0, 128, 0, 17)
-Credit.Font = Enum.Font.SourceSans
-Credit.FontSize = Enum.FontSize.Size18
-Credit.Text = "Created by err0r 129"
-Credit.TextColor3 = Color3.new(1, 1, 1)
-Credit.TextSize = 16
-Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
-Credit.TextStrokeTransparency = 0
-Credit.TextWrapped = true
-
-Toggle.MouseButton1Click:connect(function()
-	if Status.Text == "off" then
-		Clipon = true
-		Status.Text = "on"
-		Status.TextColor3 = Color3.new(0,185,0)
-		Stepped = game:GetService("RunService").Stepped:Connect(function()
-			if not Clipon == false then
-				for a, b in pairs(Workspace:GetChildren()) do
-                if b.Name == Plr.Name then
-                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
-                if v:IsA("BasePart") then
-                v.CanCollide = false
-                end end end end
-			else
-				Stepped:Disconnect()
-			end
-		end)
-	elseif Status.Text == "on" then
-		Clipon = false
-		Status.Text = "off"
-		Status.TextColor3 = Color3.new(170,0,0)
-	end
-end)
-end)
-Section:NewButton("🌐SYSTEM ANDROID🌐", "Executar Script", function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Hax0rzHub/AndroidSystemByDefense129/main/Defense%20129%20system%20android.txt"))()
-end)
-local Tab = Window:NewTab("itens💐") 
-local Section = Tab:NewSection("itens Visuais")
-Section:NewButton("itens-Im Patrick✨", "Executar Script", function()
- loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
-end)
-Section:NewButton("err0r129 speed✨", "Executar Script", function()
- --Made By Raspyredstoner
-mouse = game.Players.LocalPlayer:GetMouse()
-tool = Instance.new("Tool")
-tool.RequiresHandle = false
-tool.Name = "err0r129 Speed"
-tool.Activated:connect(function()
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 800
-end)
-tool.Parent = game.Players.LocalPlayer.Backpack
-end)
-Section:NewButton("err0r129 Jump✨", "Executar Script", function()
- --Made By Raspyredstoner
-mouse = game.Players.LocalPlayer:GetMouse()
-tool = Instance.new("Tool")
-tool.RequiresHandle = false
-tool.Name = "err0r129 Jump"
-tool.Activated:connect(function()
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 500
-end)
-tool.Parent = game.Players.LocalPlayer.Backpack
-end)
-Section:NewButton("ClickTP🛠️", "Executar Script", function()
- mouse = game.Players.LocalPlayer:GetMouse()
-tool = Instance.new("Tool")
-tool.RequiresHandle = false
-tool.Name = "Click Teleport"
-tool.Activated:connect(function()
-local pos = mouse.Hit+Vector3.new(0,2.5,0)
-pos = CFrame.new(pos.X,pos.Y,pos.Z)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
-end)
-tool.Parent = game.Players.LocalPlayer.Backpack
-end)
-Section:NewButton("F3X🛠️", "Executar Script", function()
- loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
-end)
-Section:NewButton("Btools🛠️", "Executar Script", function()
- a = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
-a.BinType = 2
-b = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
-b.BinType = 3
-c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
-c.BinType = 4
-end)
-local Tab = Window:NewTab("Misc☎️") 
-local Section = Tab:NewSection("Scripts")
-Section:NewButton("Shiftlock🔒", "Executar Script", function()
- loadstring(game:HttpGet("https://scriptblox.com/raw/Baseplate-Universal-Script-Permanent-Shift-Lock-6924"))()
-end)
-Section:NewButton("infinite Yield👾", "Executar Script", function()
- loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-Section:NewButton("Infinite Jump🌪️", "Executar Script", function()
- local gui = Instance.new("ScreenGui")
-gui.Name = "DraggableGUI"
-gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
-local frame = Instance.new("Frame")
-frame.Name = "DraggableFrame"
-frame.Size = UDim2.new(0, 200, 0, 100)
-frame.Position = UDim2.new(0, 100, 0, 100)
-frame.BackgroundTransparency = 0.4
-frame.BackgroundColor3 = Color3.new(0, 0, 0)
-frame.BorderSizePixel = 0
-frame.Active = true
-frame.Draggable = true
-frame.Parent = gui
-
-local button = Instance.new("TextButton")
-button.Name = "InfJumpButton"
-button.Size = UDim2.new(0.8, 0, 0, 30)
-button.Position = UDim2.new(0.1, 0, 0.5, -15)
-button.BackgroundColor3 = Color3.new(0, 0.5, 1)
-button.Font = Enum.Font.SourceSans
-button.TextColor3 = Color3.new(1, 1, 1)
-button.TextSize = 14
-button.Text = "InfJump"
-button.Parent = frame
-
-local label = Instance.new("TextLabel")
-label.Name = "CreatorLabel"
-label.Size = UDim2.new(0, 200, 0, 20)
-label.Position = UDim2.new(0, 0, 0, -20)
-label.BackgroundTransparency = 1
-label.Font = Enum.Font.SourceSansBold
-label.TextColor3 = Color3.new(1, 1, 1)
-label.TextSize = 14
-label.Text = "Made by err0r129"
-label.Parent = frame
-
-local infiniteJumpEnabled = false
-
-local function onButtonClick()
-    infiniteJumpEnabled = not infiniteJumpEnabled
-    button.Text = infiniteJumpEnabled and "Disable InfJump" or "Enable InfJump"
-end
-
-button.MouseButton1Click:Connect(onButtonClick)
-
-game:GetService("UserInputService").JumpRequest:Connect(function()
-    if infiniteJumpEnabled then
-        game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
-    end
-end)
-end)
-Section:NewButton("ernergizer hub⚡", "Executar Script", function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/ErnegizerHubBySla/main/KKK.lua"))()
-end)
-Section:NewButton("Telescopio⚡", "Executar Script", function()
- --Telescope
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Telescope'))()
-end)
-Section:NewButton("Portal⚡(Agora funciona)", "Executar Script", function()
- --Portal
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Portal'))()
-end)
-Section:NewButton("RTX hub⚡(Agora funciona)", "Executar Script", function()
- loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-pshade-V5-4-9228"))()
-end)
+StatusPF.
