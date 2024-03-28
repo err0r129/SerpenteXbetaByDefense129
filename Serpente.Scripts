@@ -18,7 +18,7 @@ Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Logo.BorderSizePixel = 0
 Logo.Position = UDim2.new(0.5, 0, 0.5, 0)
 Logo.Size = UDim2.new(0, 400, 0, 400)
-Logo.Image = "rbxassetid://16900913788"
+Logo.Image = "rbxassetid://16905163783"
 Logo.ImageTransparency = 0
 Logo.ScaleType = Enum.ScaleType.Crop
 
@@ -135,7 +135,7 @@ Frame.InputChanged:Connect(function(input)
     end
 end) 
 
-local Window = Library.CreateLib("SERPENTE X 1.6| 🇧🇷 | Brookhaven🏡| Hades Blair", "Serpent")
+local Window = Library.CreateLib("SERPENTE X 1.6.4| 🇧🇷 | Brookhaven RP🏡| Hades Blair🤣", "Ocean")
 
 local Tab = Window:NewTab("IMPORTANTE🚨") 
 local Section = Tab:NewSection("News")
@@ -148,9 +148,6 @@ Section:NewButton("[Menu Trolling BETA]🤡", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/MenuTrollingDenfese/main/TROLL.lua"))()
 end)
 local Section = Tab:NewSection("Scripts Brook")
-Section:NewButton("HautendPatroll(Unwell)🖥️", "Executar Script", function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/H4untedPatron/H4untedPatron-LoaderHub/main/HaPatronHubLoader.txt"))()
-end)
 Section:NewButton("Antates Hub (Boris)🖥️", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/BorisLua/AntaresHubSuaMaeNaMinhaCama/0.5.1/AntaresHubWorking.lua"))()
 end)
@@ -245,11 +242,17 @@ local Tab = Window:NewTab("Trolling🤷")
 local Section = Tab:NewSection("All Kills") 
 Section:NewButton("Fling all🔪(pegue sofa)", "Executar Script", function()
  loadstring(game:HttpGet("https://pastebin.com/raw/zqyDSUWX"))()
+  local args = {
+    [1] = "PickingTools",
+    [2] = "Couch"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
 end)
 local Section = Tab:NewSection("Flings")
 Section:NewButton("Kill Troll(Pegue sofá)🌟", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/KillTrollByDefense.dev/main/Troll.lua"))()
-end)
+end) 
 Section:NewButton("Void(pegue a pessoa no sofá)🌟", "Executar Script", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Void'))()
 end)
@@ -375,38 +378,18 @@ end)
 Section:NewButton("Animation Hub(FE)💓", "Executar Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEAnimationGui/main/FEAnimationGui.lua", true))() 
 end)
-Section:NewButton("R6 POSING💓", "Executar Script", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/R6%20Posing%20Obfuscator'))()
-end)
 local Tab = Window:NewTab("itens💐") 
 local Section = Tab:NewSection("itens Visuais")
-Section:NewButton("tool giver✨", "Executar Script", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Tool%20Giver%20v2'))()
+Section:NewButton("Sofá✨", "Executar Script", function()
+local args = {
+    [1] = "PickingTools",
+    [2] = "Couch"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
 end)
 Section:NewButton("itens-Im Patrick✨", "Executar Script", function()
  loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
-end)
-Section:NewButton("err0r129 speed✨", "Executar Script", function()
- --Made By Raspyredstoner
-mouse = game.Players.LocalPlayer:GetMouse()
-tool = Instance.new("Tool")
-tool.RequiresHandle = false
-tool.Name = "err0r129 Speed"
-tool.Activated:connect(function()
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 800
-end)
-tool.Parent = game.Players.LocalPlayer.Backpack
-end)
-Section:NewButton("err0r129 Jump✨", "Executar Script", function()
- --Made By Raspyredstoner
-mouse = game.Players.LocalPlayer:GetMouse()
-tool = Instance.new("Tool")
-tool.RequiresHandle = false
-tool.Name = "err0r129 Jump"
-tool.Activated:connect(function()
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 500
-end)
-tool.Parent = game.Players.LocalPlayer.Backpack
 end)
 Section:NewButton("ClickTP🛠️", "Executar Script", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/KptHadesBlair/main/Bao.lua"))()
@@ -437,9 +420,3 @@ end)
 Section:NewButton("Portal⚡(Agora funciona)", "Executar Script", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Portal'))()
 end)
-Section:NewButton("RTX hub⚡", "Executar Script", function()
- loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-pshade-V5-4-9228"))()
-end)
-local Section = Tab:NewSection("BYPASSING")
-Section:NewButton("systembroken", "Executar Script", function()
- loadstring(game:HttpGet
