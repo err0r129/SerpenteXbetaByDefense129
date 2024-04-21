@@ -135,7 +135,7 @@ Frame.InputChanged:Connect(function(input)
     end
 end) 
 
-local Window = Library.CreateLib("SERPENTE X 1.6.4| 🇧🇷 | Brookhaven RP🏡| Hades Blair🤣", "Ocean")
+local Window = Library.CreateLib("SERPENTE X 1.7.0| 🇧🇷 | Brookhaven RP🏡| Salazar e Hades🤣", "BloodTheme")
 
 local Tab = Window:NewTab("IMPORTANTE🚨") 
 local Section = Tab:NewSection("News")
